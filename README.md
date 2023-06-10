@@ -15,7 +15,7 @@
     a.  Invoke random number generator method by opening below URL on Chrome or IE. The output will always be a decimal number between 0 and 1
         localhost:3000/random
     b.  Random number within a specified range can be ouput by using POST method. The procedure is as follows:
-            1) The server must be listening on configured portInvoke-WebRequest -Uri "your-url" -Method POST -Headers $headers -Body '{"min": 1, "max": 10}'
+            1) The server must be listening on configured port
             2) Open power shell and first define header
                 $headers = @{
     "Content-Type" = "application/json"
